@@ -1,0 +1,220 @@
+.container
+{
+	margin: 0 auto;
+	width: 900px;  
+}
+
+/* HEADER */
+
+.head-partfolio
+{
+   padding: 10px;
+	border: 1px solid black;
+	background-color: antiquewhite;
+	line-height: 40px;
+    color: #FFF;
+    background: url(img/head.png);
+   
+}
+
+.head-partfolio_title
+{
+  color:black;
+   margin-top: 0px;
+  margin-bottom: 10px;
+ 	font-size: 48px;
+}
+
+/* NAVIGATION */
+
+.nav-wrapper {
+	
+	background-color: azure;
+	text-decoration-color: black;
+	line-height: 50px;
+    background: url(img/prism.png);
+   display: flex;
+}
+ 
+
+ /*:not(:last-of-type) */
+.nav-wrapper_title{
+	margin-right: 67px;
+   /* border: 1px solid black;*/
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);*/
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.nav-wrapper_title {
+	font-size: 18px;
+    color: white; 
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper_title:hover {
+    
+	font-size: 18px;
+    color:cornsilk;
+}
+
+.nav-wrapper_title img {
+	height:20px;
+	max-width: 100%;
+    margin-right: 3px;
+}
+
+
+
+/**       КОНТЕНТ      **/
+
+
+.main-content {
+	
+	line-height: 40px;
+	border: 1px solid black;
+    background: url(img/main.png);
+}
+
+/**       ВКЛАДКА ABOUT  **/
+
+.about-me
+{  
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .4);
+    border: 0px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+	width: 600px;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.title 
+{
+  color: black; 
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.myself_foto img 
+
+{
+margin-top: 30px;
+  margin-left: 5px;
+  width: 80px;
+  height: 70px;
+}
+
+/* MAIN PROF SKILLS */
+
+
+/* ASIDE */
+
+.main-content {
+	background-color: antiquewhite;
+	line-height: 40px;
+	border: 1px solid black;
+    background: url(img/main.png);
+}
+
+.asidenav 
+{
+    margin-top: 20px;
+	float: right;
+	border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .4);
+	width: 160px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 18px 18px;
+	margin-left: 738px;
+  position:fixed;
+}
+
+.asidenav ul li 
+{
+	font-size: 13px;
+}
+
+.asidenav ul li a
+{
+	color: #000;
+	font-size: 18px;
+}
+
+.asidenav a:hover {
+	text-decoration:underline;
+    color: #000;
+}
+
+/** BUTTON FOOTER **/
+
+.button {
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	text-transform: full-width;
+	letter-spacing: 1.6px;
+	display: flex;
+    justify-content: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	padding: 2px 30px;
+	margin-bottom: 13px;
+	transition: 0.2s ease-out;
+    width: 40px;
+    color: black;
+	background-color:floralwhite;
+}
+
+.button:hover {
+	color: yellow;
+	background-color: white;
+}
+.btn
+{
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.btn:hover {
+	color: white;
+	background-color: black;
+}
+/** FOOTER **/
+
+.page-footer
+{
+  
+  background-color: #313131;
+}
+
+.page-footer ul  
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.grey-text
+{
+   font-size: 13px;
+}
+
+.foot-content {
+  display: flex;
+	border: 1px solid black;
+    padding: 20px;
+    background-color:floralwhite;
+}
+.foot-content p{
+    padding: 10px;
+
+}
